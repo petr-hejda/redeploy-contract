@@ -1,0 +1,23 @@
+{
+	"name": "redeploy-contract",
+	"version": "1.0.0",
+	"description": "Example implementation of destructing a Solidity contract and redeploying it to the same address using the CREATE2 opcode",
+	"scripts": {
+		"test": "npx hardhat test"
+	},
+	"author": "Petr Hejda <mail@petrhejda.cz>",
+	"license": "MIT",
+	"homepage": "https://github.com/petr-hejda/redeploy-contract#readme",
+	"bugs": {
+		"url": "https://github.com/petr-hejda/redeploy-contract/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/petr-hejda/redeploy-contract.git"
+	},
+	"devDependencies": {
+		"@nomiclabs/hardhat-truffle5": "^2.0.6",
+		"@nomiclabs/hardhat-waffle": "^2.0.3",
+		"hardhat": "^2.9.5"
+	}
+}
